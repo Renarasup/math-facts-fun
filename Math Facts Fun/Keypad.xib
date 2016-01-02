@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Keypad">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="CCg-Ks-eaX"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="421" height="603"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lyT-TR-8s3">
+                    <rect key="frame" x="13" y="17" width="100" height="100"/>
+                    <animations/>
+                    <state key="normal" title="Button" image="1.png"/>
+                    <connections>
+                        <action selector="buttonDown:" destination="-1" eventType="touchUpInside" id="KeK-uB-I9W"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X4y-Jf-Q3R">
+                    <rect key="frame" x="288" y="8" width="100" height="100"/>
+                    <animations/>
+                    <state key="normal" title="Button" image="1.png"/>
+                    <connections>
+                        <action selector="buttonDown:" destination="-1" eventType="touchUpInside" id="HEb-Bf-a4W"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mzs-j9-IGf">
+                    <rect key="frame" x="20" y="141" width="100" height="100"/>
+                    <animations/>
+                    <state key="normal" title="Button" image="1.png"/>
+                    <connections>
+                        <action selector="buttonDown:" destination="-1" eventType="touchUpInside" id="VzL-dp-tvs"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OUg-s3-LJy">
+                    <rect key="frame" x="148" y="141" width="100" height="100"/>
+                    <animations/>
+                    <state key="normal" title="Button" image="1.png"/>
+                    <connections>
+                        <action selector="buttonDown:" destination="-1" eventType="touchUpInside" id="0P7-on-WRc"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FYj-vL-awU">
+                    <rect key="frame" x="288" y="141" width="100" height="100"/>
+                    <animations/>
+                    <state key="normal" title="Button" image="1.png"/>
+                    <connections>
+                        <action selector="buttonDown:" destination="-1" eventType="touchUpInside" id="n4F-5o-Gv2"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OLZ-ap-K5r">
+                    <rect key="frame" x="25" y="259" width="100" height="100"/>
+                    <animations/>
+                    <state key="normal" title="Button" image="1.png"/>
+                    <connections>
+                        <action selector="buttonDown:" destination="-1" eventType="touchUpInside" id="CYU-Cs-vPw"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wz3-We-Tg3">
+                    <rect key="frame" x="160" y="259" width="100" height="100"/>
+                    <animations/>
+                    <state key="normal" title="Button" image="1.png"/>
+                    <connections>
+                        <action selector="buttonDown:" destination="-1" eventType="touchUpInside" id="Hm0-1e-vnu"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u0L-er-Ztz">
+                    <rect key="frame" x="288" y="274" width="100" height="100"/>
+                    <animations/>
+                    <state key="normal" title="Button" image="1.png"/>
+                    <connections>
+                        <action selector="buttonDown:" destination="-1" eventType="touchUpInside" id="zLE-of-x7v"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U9Y-ce-MpD">
+                    <rect key="frame" x="20" y="382" width="100" height="100"/>
+                    <animations/>
+                    <state key="normal" title="Button" image="1.png"/>
+                    <connections>
+                        <action selector="buttonDown:" destination="-1" eventType="touchUpInside" id="aJP-MD-ycb"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UaY-dh-f9y">
+                    <rect key="frame" x="160" y="382" width="100" height="100"/>
+                    <animations/>
+                    <state key="normal" title="Button" image="1.png"/>
+                    <connections>
+                        <action selector="buttonDown:" destination="-1" eventType="touchUpInside" id="le9-mO-CI0"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="13" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ri3-0M-eV6">
+                    <rect key="frame" x="0.0" y="489" width="421" height="120"/>
+                    <animations/>
+                    <state key="normal" title="Button" image="enter.png"/>
+                    <connections>
+                        <action selector="buttonDown:" destination="-1" eventType="touchUpInside" id="8WY-Av-dfx"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GU3-Zu-2fj">
+                    <rect key="frame" x="300" y="382" width="100" height="100"/>
+                    <animations/>
+                    <state key="normal" title="Button" image="1.png"/>
+                    <connections>
+                        <action selector="buttonDown:" destination="-1" eventType="touchUpInside" id="Qtw-xj-RoP"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ne-Zx-6Mx">
+                    <rect key="frame" x="148" y="8" width="100" height="100"/>
+                    <animations/>
+                    <state key="normal" title="Button" image="1.png"/>
+                    <connections>
+                        <action selector="buttonDown:" destination="-1" eventType="touchUpInside" id="cRa-ue-T7p"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="284.5" y="230.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="1.png" width="125" height="125"/>
+        <image name="enter.png" width="448" height="125"/>
+    </resources>
+</document>
